@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    background-color: #F7B639;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    text-shadow: 3px 3px #F7B639;
+}
+
+header {
+    font-size: xx-large;
+    background-color: #F7CC39;
+    background-size: cover;
+    margin: 0px;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+#check {
+    width: 80px;
+    margin-top: 20px;
+    position: absolute;
+    left: 93%;
+}
+
+#taskInput {
+    text-align: center;
+    width: 90%;
+    height: 4rem;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #F7CC39;
+    margin-top: 5px;
+    float: left;
+}
+
+#taskInput:focus {
+    outline: #F7B639;
+    color: #F7B639;
+    font-size: 30px;
+}
+
+::placeholder {
+    color: #F0E880;
+    font-size: 30px;
+}
+
+main {
+    background-color: white;
+    height: 500px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: #F7CC39;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #F7CC39;
+    height: 140px;
+    position: sticky;
+    bottom: 0;
+}
+.clearContainer{
+    margin-top: 30px;
+}
+#clearButton {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border-style: solid;
+    position: absolute;
+    top: 5px;
+    left: 50.5%;
+    transform: translateX(-50%);
+}
+
+#clear {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.delete {
+    display: none;
+}
+
+main{
+    background-color: black;
+}
+li{
+    margin: 5px;
+    color: black;
+    background-color: #F7DE6F ;
+    font-size: larger;
+    border: 1px;
+    border-style: solid;
+    border-radius: 50px;
+}
